@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: blue;
+  }
+  .container {
+    font-size: 20px;
+    background-color: aqua;
+    width: 100vw;
+    max-width: 35em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 5em;
+    border-radius: 0.5em;
+    box-shadow: 0 1em 2em black;
+  }
+  #options-container {
+    text-align: center;
+  }
+  #options-container div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0 2em 0;
+  }
+  #options-container button {
+    padding: 0.5em 1em;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+  }
+  .letter-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: .5em;
+    column-gap: .5em;
+  }
+  #letter-container button {
+    height: 2em;
+    width: 2em;
+    border-radius: 0.5em;
+    background-color: white;
+  }
+  .new-game-popup {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.5em;
+  }
+  
+  #user-input-section {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0.5em 0 1em 0;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    border: 10px solid blue;
+    border-radius: 10px;
+  }
+  #result-text h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  #result-text p {
+    font-size: 1em;
+    margin: 1em 0 2em 0;
+  }
+  #result-text span {
+    font-weight: 500;
+  }
+  #new-game-button {
+    font-size: 1em;
+    padding: 0.5em 1em;
+    background-color: green;
+    border: 3px solid black;
+    color: white;
+    border-radius: 0.2em;
+  }
+  .win-msg {
+    color: darkgreen;
+  }
+  .lose-msg {
+    color: red;
+  }

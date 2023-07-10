@@ -1,0 +1,10 @@
+HANGMAN GAME -
+
+Hello everyone! For this project I built out a fully functional game of hangman in which players choose a category, and a random word that fits that category is randomly selected. The player selects letters they think will fit into the random word. The player has the opportunity to guess incorrectly 6 times before they lose the game. After each iteration of the game, the player can hit new game, choose a new category, and start the process over again.
+
+This game includes JS, HTML and CSS elements, check out the code if you want to see more!
+
+I referenced the following to assist me in building this out:
+    https://www.youtube.com/watch?v=ZFb_eaYtWwY
+    https://www.youtube.com/watch?v=T6uht1A0114
+    Some wonderful Software Engineering friends
