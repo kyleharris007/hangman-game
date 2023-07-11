@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
   }
   body {
     background-color: blue;
@@ -31,9 +32,10 @@
   #options-container button {
     padding: 0.5em 1em;
     border: 2px solid black;
-    background-color: white;
-    color: black;
+    background-color: blue;
+    color: white;
     border-radius: 0.5em;
+    font-weight: bold;
   }
   .letter-container {
     width: 100%;
